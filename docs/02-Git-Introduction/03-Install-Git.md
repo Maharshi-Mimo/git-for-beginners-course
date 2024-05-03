@@ -23,3 +23,14 @@ In this section, we will take a look at Installing Git
   ```
   $ git --version
   ```
+- Once installation is complete, it is time to configure git so all commit have an author. 
+  - To configure git run the below command to set author globally. 
+    ```bash 
+    $ git config --global user.name "Your Name"
+    $ git config --global user.email "Your Email"
+    ```
+    OR
+    ```bash
+    $ git config --global --edit
+    ```
+    [Git global configuration](/images/Git_config_global.png)
